@@ -14,10 +14,21 @@
 }(function() {
     'use strict';
 
+    function toLookup(values, lookupValue, targetLookup) {
+        var lookup = targetLookup || {};
 
-    function lookup() {
+        if (arguments.length === 1) {
+            lookupValue = true;
+        }
 
+        if (values) {
+            for (var valueNo = -1, valuesLength = values.length; ++valueNo < valuesLength;) {
+                lookup[values[valueNo]] = lookupValue;
+            }
+        }
+
+        return lookup;
     }
 
-    return lookup;
+    return toLookup;
 }));

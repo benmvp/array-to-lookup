@@ -1,13 +1,13 @@
 {
   "name": "array-to-lookup",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Convert an array into a lookup object",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
     "test": "mocha *.spec.js",
-    "test-coverage": "istanbul cover _mocha -- -R spec tests/*.js",
-    "test-coverage-ci": "istanbul cover _mocha --report lcovonly -- -R spec tests/*.js",
+    "test-coverage": "istanbul cover _mocha -- -R spec *.spec.js",
+    "test-coverage-ci": "istanbul cover _mocha --report lcovonly -- -R spec *.spec.js",
     "validate": "npm run lint && npm run test",
     "validate-ci": "npm run lint && npm run test-coverage-ci",
     "preversion": "npm run validate",
