@@ -1,0 +1,51 @@
+{
+  "name": "array-to-lookup",
+  "version": "1.0.0",
+  "description": "Convert an array into a lookup object",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha *.spec.js",
+    "test-coverage": "istanbul cover _mocha -- -R spec tests/*.js",
+    "test-coverage-ci": "istanbul cover _mocha --report lcovonly -- -R spec tests/*.js",
+    "validate": "npm run lint && npm run test",
+    "validate-ci": "npm run lint && npm run test-coverage-ci",
+    "preversion": "npm run validate",
+    "postversion": "git push && git push --tags",
+    "release": "npm run release-patch",
+    "release-patch": "npm version patch --message 'Patch release v%s' && npm publish",
+    "release-minor": "npm version minor --message 'Minor release v%s' && npm publish",
+    "release-major": "npm version major --message 'Major release v%s' && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benmvp/array-to-lookup.git"
+  },
+  "keywords": [
+    "array",
+    "lookup",
+    "object"
+  ],
+  "author": "Ben Ilegbodu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benmvp/array-to-lookup/issues"
+  },
+  "homepage": "https://github.com/benmvp/array-to-lookup#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.9",
+    "eslint": "^2.5.3",
+    "eslint-config-benmvp": "^1.0.0",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5",
+    "pre-commit": "^1.1.2",
+    "uglify-js": "^2.6.2"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "pre-commit": [
+    "validate"
+  ]
+}
