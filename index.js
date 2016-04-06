@@ -5,6 +5,7 @@
   Adapted from the Uize.lookup function, a part of the UIZE JavaScript Framework.
 */
 (function(factory) {
+    /* istanbul ignore next */
     if (typeof define === 'function' && define.amd) {
         define(factory);
     }
