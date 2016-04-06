@@ -12,19 +12,24 @@
     else if (typeof module === 'object' && module.exports) {
         module.exports = factory();
     }
-}(function() {
+})(function() {
     'use strict';
 
     function toLookup(values, lookupValue, targetLookup) {
-        var lookup = targetLookup || {};
+        var lookup = targetLookup || {},
+            lookupValueToUse = lookupValue,
+            valueNo = -1,
+            valuesLength;
 
         if (arguments.length === 1) {
-            lookupValue = true;
+            lookupValueToUse = true;
         }
 
         if (values) {
-            for (var valueNo = -1, valuesLength = values.length; ++valueNo < valuesLength;) {
-                lookup[values[valueNo]] = lookupValue;
+            valuesLength = values.length;
+
+            for (; ++valueNo < valuesLength;) {
+                lookup[values[valueNo]] = lookupValueToUse;
             }
         }
 
@@ -32,4 +37,4 @@
     }
 
     return toLookup;
-}));
+});
