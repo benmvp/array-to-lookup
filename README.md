@@ -176,13 +176,13 @@ In the improved version, a lookup object (aka hash table) is created before the 
 
 ## Contributing
 
-Contributions are welcome! More details coming soon... 😀
+Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
 
 ## Project philosophy
 
 We take the stability of this utility package **very** seriously. `array-to-lookup` follows the [SemVer](http://semver.org/) standard for versioning.
 
-All updates must not break the [CI build](https://travis-ci.org/benmvp/array-to-lookup) nor go below the [95%+ code coverage](https://coveralls.io/github/benmvp/array-to-lookup?branch=master).
+All updates must pass the [CI build](https://travis-ci.org/benmvp/array-to-lookup) while maintaining [100% code coverage](https://coveralls.io/github/benmvp/array-to-lookup).
 
 ## License
 
