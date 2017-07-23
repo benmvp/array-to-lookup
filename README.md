@@ -1,19 +1,31 @@
 # array-to-lookup
 
-[![version](https://img.shields.io/npm/v/array-to-lookup.svg?style=flat-square)](http://npm.im/array-to-lookup)
+[![version](https://img.shields.io/npm/v/array-to-lookup.svg)](http://npm.im/array-to-lookup)
+[![downloads](https://img.shields.io/npm/dt/array-to-lookup.svg)](http://npm-stat.com/charts.html?package=array-to-lookup&from=2016-03-27)
+![module formats: umds](https://img.shields.io/badge/module%20formats-umd-green.svg)
+[![license](https://img.shields.io/npm/l/array-to-lookup.svg)](http://spdx.org/licenses/MIT)
+
+[![Maintenance Status](https://img.shields.io/badge/status-maintained-brightgreen.svg)](https://github.com/benmvp/array-to-lookup/pulse)
 [![Build Status](https://travis-ci.org/benmvp/array-to-lookup.svg?branch=master)](https://travis-ci.org/benmvp/array-to-lookup)
 [![Coverage Status](https://coveralls.io/repos/github/benmvp/array-to-lookup/badge.svg?branch=master)](https://coveralls.io/github/benmvp/array-to-lookup?branch=master)
-[![Dependencies status](https://img.shields.io/david/benmvp/array-to-lookup.svg?style=flat-square)](https://david-dm.org/benmvp/array-to-lookup#info=dependencies)
-[![Dev Dependencies status](https://img.shields.io/david/dev/benmvp/array-to-lookup.svg?style=flat-square)](https://david-dm.org/benmvp/array-to-lookup#info=devDependencies)
-[![downloads](https://img.shields.io/npm/dt/array-to-lookup.svg?style=flat-square)](http://npm-stat.com/charts.html?package=array-to-lookup&from=2016-03-27)
-[![Maintenance Status](https://img.shields.io/badge/status-maintained-brightgreen.svg)](https://github.com/benmvp/array-to-lookup/pulse)
-[![license](https://img.shields.io/npm/l/array-to-lookup.svg?style=flat-square)](http://spdx.org/licenses/MIT)
+[![Dependencies status](https://img.shields.io/david/benmvp/array-to-lookup.svg)](https://david-dm.org/benmvp/array-to-lookup#info=dependencies)
+[![Dev Dependencies status](https://img.shields.io/david/dev/benmvp/array-to-lookup.svg)](https://david-dm.org/benmvp/array-to-lookup#info=devDependencies)
+
+[![Watch on GitHub](https://img.shields.io/github/watchers/benmvp/array-to-lookup.svg?style=social)](https://github.com/benmvp/array-to-lookup/watchers)
+[![Star on GitHub](https://img.shields.io/github/stars/benmvp/array-to-lookup.svg?style=social)](https://github.com/benmvp/array-to-lookup/stargazers)
+[![Tweet](https://img.shields.io/twitter/url/https/github.com/benmvp/array-to-lookup.svg?style=social)](https://twitter.com/intent/tweet?text=Check%20out%20array-to-lookup!%20https://github.com/benmvp/array-to-lookup%20%F0%9F%91%8D)
 
 Convert a JavaScript array into a lookup object.
 
 `array-to-lookup` is derived from the [`Uize`](https://github.com/UIZE/UIZE-JavaScript-Framework/blob/master/site-source/js/Uize.js) module that is a part of the open-source [UIZE JavaScript Framework](https://github.com/UIZE/UIZE-JavaScript-Framework). It is stable, [dependency-free](https://david-dm.org/benmvp/array-to-lookup#info=dependencies), [well-tested](https://coveralls.io/github/benmvp/array-to-lookup?branch=master), and [well-documented](#api-docs).
 
 ## Installation
+
+Install via [Yarn](https://yarnpkg.com/lang/en/docs/managing-dependencies/):
+
+```sh
+yarn add array-to-lookup
+```
 
 Install via [NPM](https://docs.npmjs.com/getting-started/installing-npm-packages-locally):
 
@@ -176,7 +188,7 @@ In the improved version, a lookup object (aka hash table) is created before the 
 
 ## Contributing
 
-Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
+Contributions are welcome! See [CONTRIBUTING](CONTRIBUTING.md) for more details.
 
 ## Project philosophy
 
@@ -186,4 +198,4 @@ All updates must pass the [CI build](https://travis-ci.org/benmvp/array-to-looku
 
 ## License
 
-[MIT](LICENSE). Copyright (c) 2016 Ben Ilegbodu.
+[MIT](LICENSE). Copyright (c) 2016-2017 Ben Ilegbodu.
