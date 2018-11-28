@@ -34,14 +34,14 @@
   },
   "homepage": "https://github.com/benmvp/array-to-lookup#readme",
   "devDependencies": {
-    "chai": "^3.5.0",
-    "coveralls": "^2.11.9",
-    "eslint": "^2.5.3",
-    "eslint-config-benmvp": "^2.0.0",
+    "chai": "^4.2.0",
+    "coveralls": "^3.0.2",
+    "eslint": "^5.9.0",
+    "eslint-config-benmvp": "^4.1.0",
     "istanbul": "^0.4.2",
-    "mocha": "^2.4.5",
+    "mocha": "^5.2.0",
     "pre-commit": "^1.1.2",
-    "uglify-js": "^2.6.2"
+    "uglify-js": "^3.4.9"
   },
   "engines": {
     "node": ">=0.10"
