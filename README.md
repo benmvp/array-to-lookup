@@ -13,7 +13,7 @@
 
 [![Watch on GitHub](https://img.shields.io/github/watchers/benmvp/array-to-lookup.svg?style=social)](https://github.com/benmvp/array-to-lookup/watchers)
 [![Star on GitHub](https://img.shields.io/github/stars/benmvp/array-to-lookup.svg?style=social)](https://github.com/benmvp/array-to-lookup/stargazers)
-[![Tweet](https://img.shields.io/twitter/url/https/github.com/benmvp/array-to-lookup.svg?style=social)](https://twitter.com/intent/tweet?text=Check%20out%20array-to-lookup%20by%20%40benmvp!%0A%0Ahttps%3A%2F%2Fgithub.com%2Fbenmvp%2Farray-to-lookup)
+[![Tweet](https://img.shields.io/twitter/url/https/github.com/benmvp/array-to-lookup.svg?style=social)](https://twitter.com/intent/tweet?text=Check%20out%20array-to-lookup%20by%20%40benmvp!%0A%0Ahttps%3A%2F%2Fgithub.com%2Fbenmvp%2Farray-to-lookup) [![Greenkeeper badge](https://badges.greenkeeper.io/benmvp/array-to-lookup.svg)](https://greenkeeper.io/)
 
 Convert a JavaScript array into a lookup object.
 
